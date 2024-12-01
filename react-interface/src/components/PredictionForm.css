@@ -1,0 +1,50 @@
+.prediction-form-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #D50A0A; /* Sombra en rojo */
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+input {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #A5ACAF; /* Gris metálico */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #D50A0A; /* Rojo de la NFL */
+    outline: none;
+}
+
+button {
+    background-color: #D50A0A; /* Rojo */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #A5ACAF; /* Gris metálico */
+}
+
+.error {
+    color: #FF0000;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.prediction-result {
+    color: #00FF00;
+    font-size: 1.2rem;
+    text-align: center;
+}
