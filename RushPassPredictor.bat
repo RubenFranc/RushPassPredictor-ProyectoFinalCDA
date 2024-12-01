@@ -1,7 +1,7 @@
 @echo off
 
 cd /d "%~dp0react-interface"
-start cmd /C "npm run start && exit"
+start cmd /C "npm install && npm run start && exit"
 
 cd /d "%~dp0backend"
 rem Ejecutar la aplicación Flask
